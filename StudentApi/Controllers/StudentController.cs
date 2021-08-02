@@ -70,7 +70,7 @@ namespace StudentApi.Controllers
 
 
         //Delete Student Record
-        [HttpDelete("DeleteStudent")]
+        //[HttpDelete("DeleteStudent")]
         public ActionResult DeleteStudent([FromBody] int Studentid)
         {
            _studentService.DeleteData(Studentid);
