@@ -69,13 +69,13 @@ namespace StudentApi.Controllers
 
 
 
-        //Delete Student Record
-        [HttpDelete("DeleteStudent")]
-        public ActionResult DeleteStudent([FromBody] int Studentid)
-        {
-            _studentService.DeleteData(Studentid);
-            return new JsonResult("Student Removed");
-        }
+        ////Delete Student Record
+        //[HttpDelete("DeleteStudent")]
+        //public ActionResult DeleteStudent([FromBody] int Studentid)
+        //{
+        //    _studentService.DeleteData(Studentid);
+        //    return new JsonResult("Student Removed");
+        //}
 
 
         [AllowAnonymous]
